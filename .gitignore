@@ -29,7 +29,7 @@ node_modules
 examples/biz-website/public/
 examples/blog/public/
 *.un~
-dist
+# dist
 bin/published.js
 
 # Build Path of Test Fixtures
