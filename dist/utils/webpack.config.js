@@ -228,7 +228,7 @@ module.exports = function (program, directory, suppliedStage) {
       loaders: ['coffee', 'cjsx']
     });
     config.loader('js', {
-      test: /(\.jsx?|lsc|lsx)$/, // Accept either .js or .jsx files.
+      test: /\.(jsx?|lsc|lsx)$/, // Accept either .js or .jsx files.
       exclude: /(node_modules|bower_components)/,
       loader: 'babel',
       query: (0, _babelConfig2.default)(program, babelStage)
